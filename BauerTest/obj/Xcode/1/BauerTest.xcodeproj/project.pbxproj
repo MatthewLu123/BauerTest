@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3646B4B20000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D7C1500000000000000000 /* UIKit.framework */; };
+		17DC57E50000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6D64830000000000000000 /* MapKit.framework */; };
+		3D0307B60000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941454000000000000000000 /* Foundation.framework */; };
+		306DE9FF0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FEF69D0000000000000000 /* CoreGraphics.framework */; };
+		3B249C440000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5A8E20000000000000000 /* Default-568h@2x.png */; };
+		105804DC0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13E9117A0000000000000000 /* Info.plist */; };
+		3E82C5C60000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 213D26400000000000000000 /* Entitlements.plist */; };
+		2CAD86B00000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303E934E0000000000000000 /* MainStoryboard.storyboard */; };
+		201868F90000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 23A975970000000000000000 /* AppDelegate.h */; };
+		21949A9E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525A73C0000000000000000 /* AppDelegate.m */; };
+		3A590FD40000000000000000 /* CircleViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA1C720000000000000000 /* CircleViewController.h */; };
+		F8C786C00000000000000000 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131D850A0000000000000000 /* CircleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D50D20D0000000000000000 /* BauerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "BauerTest.app"; path = "BauerTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D7C1500000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		1B6D64830000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		941454000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		33FEF69D0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3EB5A8E20000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		13E9117A0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		213D26400000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		303E934E0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		23A975970000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2525A73C0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		3DEA1C720000000000000000 /* CircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CircleViewController.h"; path = "CircleViewController.h"; sourceTree = "<group>"; };
+		131D850A0000000000000000 /* CircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CircleViewController.m"; path = "CircleViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC7E7A100000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3646B4B20000000000000000 /* UIKit.framework in Frameworks */,
+				17DC57E50000000000000000 /* MapKit.framework in Frameworks */,
+				3D0307B60000000000000000 /* Foundation.framework in Frameworks */,
+				306DE9FF0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE1592F0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				167B0D7B0000000000000000 /* BauerTest */,
+				36947F090000000000000000 /* Frameworks */,
+				212E33550000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212E33550000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D50D20D0000000000000000 /* BauerTest.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		36947F090000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D7C1500000000000000000 /* UIKit.framework */,
+				1B6D64830000000000000000 /* MapKit.framework */,
+				941454000000000000000000 /* Foundation.framework */,
+				33FEF69D0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		167B0D7B0000000000000000 /* BauerTest */ = {
+			isa = PBXGroup;
+			children = (
+				23A975970000000000000000 /* AppDelegate.h */,
+				3DEA1C720000000000000000 /* CircleViewController.h */,
+				3EB5A8E20000000000000000 /* Default-568h@2x.png */,
+				213D26400000000000000000 /* Entitlements.plist */,
+				13E9117A0000000000000000 /* Info.plist */,
+				303E934E0000000000000000 /* MainStoryboard.storyboard */,
+				2376927B0000000000000000 /* Supporting Files */,
+			);
+			name = "BauerTest";
+			sourceTree = "<group>";
+		};
+		2376927B0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2525A73C0000000000000000 /* AppDelegate.m */,
+				131D850A0000000000000000 /* CircleViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35960F7D0000000000000000 /* BauerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329DAC330000000000000000 /* Build configuration list for PBXNativeTarget "BauerTest" */;
+			buildPhases = (
+				39F2A88B0000000000000000 /* Sources */,
+				BC7E7A100000000000000000 /* Frameworks */,
+				22DD48160000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BauerTest";
+			productName = "BauerTest";
+			productReference = 3D50D20D0000000000000000 /* BauerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE2E9A30000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 27EA86590000000000000000 /* Build configuration list for PBXProject "BauerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BE1592F0000000000000000;
+			productRefGroup = 212E33550000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35960F7D0000000000000000 /* BauerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DD48160000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B249C440000000000000000 /* Default-568h@2x.png in Resources */,
+				105804DC0000000000000000 /* Info.plist in Resources */,
+				3E82C5C60000000000000000 /* Entitlements.plist in Resources */,
+				2CAD86B00000000000000000 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F2A88B0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201868F90000000000000000 /* AppDelegate.h in Sources */,
+				21949A9E0000000000000000 /* AppDelegate.m in Sources */,
+				3A590FD40000000000000000 /* CircleViewController.h in Sources */,
+				F8C786C00000000000000000 /* CircleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2966B7FE0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		1D37607F0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "BauerTest";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EA86590000000000000000 /* Build configuration list for PBXProject "BauerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2966B7FE0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		329DAC330000000000000000 /* Build configuration list for PBXNativeTarget "BauerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D37607F0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE2E9A30000000000000000 /* Project object */;
+}

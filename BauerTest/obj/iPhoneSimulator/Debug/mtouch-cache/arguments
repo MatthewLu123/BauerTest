@@ -1,0 +1,29 @@
+# Version: 7.2.5.5 (87026b6)
+# [first argument, ignore] # /Users/matthewlu/Projects/BauerTest/BauerTest/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/matthewlu/Projects/BauerTest/BauerTest/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/matthewlu/Projects/BauerTest/BauerTest/bin/iPhoneSimulator/Debug/BauerTest.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Net.Http.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/matthewlu/Projects/BauerTest/BauerTest/bin/iPhoneSimulator/Debug/BauerTest.exe \
